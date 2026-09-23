@@ -1,0 +1,43 @@
+# Unity generates these locally.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+
+# IDE and local machine files.
+/.vscode/
+/.vs/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.pidb
+/*.booproj
+/*.unityproj
+.DS_Store
+Thumbs.db
+
+# Local diagnostics and generated helper executables.
+/Tools/PopFeedbackBackup/
+/Tools/FecharMetaVR/*.exe
+/Tools/FecharMetaVR/*.pdb
+*.log
+*.tmp
+
+# Local credentials and signing keys.
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.pfx
+*.p12
